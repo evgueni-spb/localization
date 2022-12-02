@@ -1,0 +1,2 @@
+docker build -t ngx .
+docker run --name some-nginx -v C:/sources/localization/default.conf:/etc/nginx/conf.d/default.conf:ro -d -p 8080:81 ngx
